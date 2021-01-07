@@ -4,6 +4,9 @@ import pygame
 
 WIDTH = 1200
 HEIGHT = 800
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption('Doom')
+clock = pygame.time.Clock()
 HALF_WIDTH = WIDTH // 2
 HALF_HEIGHT = HEIGHT // 2
 TILE = 100
